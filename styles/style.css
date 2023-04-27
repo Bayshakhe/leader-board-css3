@@ -32,17 +32,16 @@ header{
     background-color: #562EFF;
     text-align: center;
 }
-.navbar{
-    background-color: #FFC014;
+.header{
     margin: 0 auto;
     width: 870px;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr;
     align-items: center;
     padding: 10px 50px;
 }
 header img{
-    width: 10%;
+    width: 50px;
 }
 .title{
     display: flex;
